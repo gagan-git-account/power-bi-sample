@@ -34,6 +34,15 @@
           "x": 468.67,
           "y": 219.21,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"90b9d5cb809cb3939c08\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":99.5,\"width\":300,\"height\":300,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Table1.Table1)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Table1\"}},\"Function\":0},\"Name\":\"Sum(Table1.Table1)\",\"NativeReferenceName\":\"Sum of Table1\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 300.00,
+          "x": 150.00,
+          "y": 99.50,
+          "z": 1.00
         }
       ],
       "width": 1280.00

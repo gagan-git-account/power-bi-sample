@@ -1,0 +1,14 @@
+expression Database = "dev" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: 2ef9d3da-eb53-4e7f-ad30-4b9639f51b7c
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression Catalog = "bronze" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: 2a7c1a9b-ce1b-44a9-aabe-158a603dd2b4
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
